@@ -1,0 +1,30 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+}
+.container {
+    margin: 0px auto;
+}
+.clock {
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    /* font-style: italic; */
+    text-align: center;
+    font-size: 60px;
+} 
+.header {
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+    
+    font-size: 70px;
+}
+.border {
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 500px; 
+    height: 300px;
+}
